@@ -1,13 +1,28 @@
-table#table1 {
-    border: solid;
+body{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
-td, th {
-    border: solid;
+table#table1 {
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
 }
-figure.BelaVista img {
-    float: right;
+
+td, th {
+    border: 1px solid #a2a9b1;
+    display: table-cell;
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: auto;
-    height: auto;
+}
+
+.finalsection{
+    text-align: center;
 }
